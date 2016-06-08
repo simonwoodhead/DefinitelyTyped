@@ -10,5 +10,5 @@ declare module 'react-tap-event-plugin'{
 
     var injectTapEventPlugin: (strategyOverrides?: StrategyOverrides) => void;
 
-    export = injectTapEventPlugin;
+    export default injectTapEventPlugin;
 }
